@@ -40,18 +40,46 @@ main {
     flex: 1;
 }
 
-section > div#balance {
-    background-image: linear-gradient(to bottom, var(--primary-font), var(--secondary-color));
-    margin: 10% 5%;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 7px 3px #5c5c5c80;
+section#menu {
+    display: flex;
+    flex-direction: column;
 }
 
-section > div#balance > p {
+section#menu > span#button_burguer_menu {
+    display: block;
+    background-color: var(--primary-font);
     color: var(--secondary-font);
-    font-size: 1.5em;
+    text-align: center;
+    font-size: 2em;
+    margin: 10px auto;
+    padding-top: 15px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
 
+section#menu > menu {
+    display: none;
+}
+
+section#menu > menu > ul {
+    background-color: var(--primary-font);
+    border-radius: 0 0 10px 10px;
+    width: 90vw;
+    margin: auto;
+    list-style: none;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+section#menu > menu > ul > li {
+    border-top: 1px solid var(--secondary-font);
+    padding: 10px;
+}
+
+section#menu > menu > ul > li > a {
+    text-decoration: none;
+    color: var(--secondary-font);
 }
 
 footer {
