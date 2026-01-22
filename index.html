@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,23 +15,37 @@
         <h1>Financial APP</h1>
     </header>
     <main>
-        <section id="menu">
-            <span class="material-symbols-outlined" id="button_burguer_menu" onclick="buttonBurguerMenu()">menu</span>
-            <menu id="burger_menu">
+        <section class="menu">
+            <span class="material-symbols-outlined" id="home-page-menu" onclick="clickHomePageMenu()">menu</span>
+            <menu id="burguermenu">
                 <ul>
-                    <li><a href="pages/newrecord.html">Novo Registro</a></li>
-                    <li><a href="#">Página 2</a></li>
+                    <li><a href="#">Novo transação</a></li>
+                    <li><a href="#">Registro de transações</a></li>
                 </ul>
             </menu>
-            
         </section>
-        <section>
+        <section class="section-cards" id="balance">
+            <div class="card" id="balance-card">
+                <h2>R$ 0,00</h2>
+                <p>Saldo em Conta:</p>
+            </div>
+        </section>
+        <section class="section-cards" id="investments">
+            <div class="card" id="investments-card">
+                <h2>R$ 0,00</h2>
+                <p>Investimentos</p>
+            </div>
+        </section>
+        <section class="section-cards" id="debts">
+            <div class="card" id="debits-card">
+                <h2>R$ 0,00</h2>
+                <p>Dívidas Atual</p>
+            </div>
         </section>
     </main>
     <footer>
         <p>&copy; 2026 Rocha Developments</p>
     </footer>
-
     <script src="scripts/script.js"></script>
 </body>
 </html>
