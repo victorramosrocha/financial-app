@@ -1,0 +1,26 @@
+header {
+    padding: 15px 0;
+}
+
+
+header > h1 {
+    text-align: center;
+}
+
+
+/* MAIN CONTENT */
+main {
+    flex: 1;
+}
+
+
+/* FOOTER */
+footer {
+    position: relative;
+    padding: 10px 0;
+}
+
+
+footer > p {
+    text-align: center;
+}

@@ -1,0 +1,67 @@
+/* SECTIONS */
+section.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* BUTTONS */
+section.menu > span#menu-button {
+    display: block;
+    margin: auto;
+    font-size: 2.5em;
+    width: 85vw;
+    text-align: center;
+}
+
+
+section.menu > span#menu-button.active {
+    border-bottom: 1px solid var(--fontTwo);
+} 
+
+
+/* CARDS */
+section.section-cards > div.card {
+    margin-top: 10px;
+    padding: 15px;
+}
+
+
+section.section-cards > div.card > h2 {
+    font-size: 2em;
+}
+
+
+section.section-cards > div.card > p {
+    font-size: 0.8em;
+    padding-top: 5px;
+    text-indent: 25px;
+}
+
+
+/* MENUS */
+section.menu > ul#burguer-menu {
+    display: none;
+}
+
+
+section.menu > ul#burguer-menu.active {
+    display: block;
+    list-style: none;
+    text-align: center;
+    width: 85vw;
+    margin: auto;
+}
+
+
+section.menu > ul#burguer-menu > li {
+    padding: 5px 0;
+    border-bottom: 1px solid var(--fontTwo);
+}
+
+
+section.menu > ul#burguer-menu > li > a {
+    color: var(--fontTwo);
+    font-size: 1.2em;
+    text-decoration: none;
+}

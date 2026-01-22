@@ -1,6 +1,6 @@
-function clickHomePageMenu() {
-    const menu = document.querySelector('#burguermenu')
-    const icon = document.querySelector('#home-page-menu')
+function clickButtonMenu() {
+    const menu = document.querySelector('#burguer-menu')
+    const icon = document.querySelector('#menu-button')
 
     menu.classList.toggle('active')
     icon.classList.toggle('active')
